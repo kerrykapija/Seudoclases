@@ -1,0 +1,49 @@
+a:link {
+	color:orange;
+}
+a:visited{
+	color:pink;
+}
+div.foto{
+	background-image:url(img/catwar.png);
+	width:1200px;
+	height:900px;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+div.foto:hover{
+	background-image:url(img/gatito.jpg);
+	width:1200px;
+	height:900px;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+button{
+	font-family:verdana;
+	font-size:20px;
+	color:yellow;
+	background-color:green;
+	border:5px solid red;
+	border-radius:5px;
+}
+button:hover{
+	font-family:arial;
+	font-size:30px;
+	color:purple;
+	background-color:black;
+	border:10px solid orange;
+	border-radius:25px;
+}
+.letrazul{
+	color:blue;
+}
+.fondogris{
+	background:grey;
+}
+#borderedondo{
+	border-radius:25px;
+}
+div.tercerorojo p:nth-child(3){
+	color:red;
+}
